@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+      integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+      crossorigin="anonymous"
+    />
+    <title>Perros</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body background="img/fondo.jpg">
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">Pet Society</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto text-center">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">INICIO</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="perros.html">Perros</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="gatos.html">Gatos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Peces</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+
+        </ul>
+        <ul class="navbar-nav text-center">
+          <li class="nav-item">
+            <p class="timer text-white" id="display-time"></p>
+          </li>
+          <li class="nav-item">
+            <a class="btn btn-outline-success mt-1">Contactanos</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container-fluid pr-0 pl-0">
+      <img src="img/dog-friends.jpg" class="img-fluid w-100" />
+    </div>
+
+    <!--Alimentos para perros-->
+    <div class="container mb-60">
+      <h2 class="display-4 text-center m-3">Alimentos para perros</h2>
+    </div>
+
+    <!--Cards comidas-->
+    <div class="container-fluid text-center mb-5">
+      <div class="row">
+        <div class="col-lg">
+          <div class="card mx-auto mb-4 text-white bg-dark" style="width: 18rem">
+            <img
+              src="img/dogchow.jpg"
+              class="card-img-top img-card"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Dog Chow</h5>
+              <p class="card-text">
+                Delicioso y saludable, una de las marcas más favoritas.
+              </p>
+              <p class="card-text text-success">$19.990</p>
+              <a href="404.html" class="btn btn-primary">Comprar</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg">
+          <div class="card mx-auto mb-4 text-white bg-dark" style="width: 18rem">
+            <img src="img/royal.jpg" class="card-img-top img-card" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Royal Canin</h5>
+              <p class="card-text">Comida para perros adultos en etapa +8.</p>
+              <p class="card-text text-success">$29.990</p>
+              <a href="404.html" class="btn btn-primary">Comprar</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg">
+          <div class="card mx-auto mb-4 text-white bg-dark" style="width: 18rem">
+            <img
+              src="img/pedigree.jpg"
+              class="card-img-top img-card"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Pedigree</h5>
+              <p class="card-text">
+                Pedigree Vital etapa 3 para los mas adultos.
+              </p>
+              <p class="card-text text-success">$10.990</p>
+              <a href="404.html" class="btn btn-primary">Comprar</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg">
+          <div class="card mx-auto mb-4 text-white bg-dark" style="width: 18rem">
+            <img src="img/biljac.jpg" class="card-img-top img-card" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Bil & Jac</h5>
+              <p class="card-text">
+                Sobre con galletitas con sabor carne, para premiarlos.
+              </p>
+              <p class="card-text text-success">$3.990</p>
+              <a href="404.html" class="btn btn-primary">Comprar</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg">
+          <div class="card mx-auto mb-4 text-white bg-dark" style="width: 18rem">
+            <img src="img/brito.jpg" class="card-img-top img-card" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Lomas</h5>
+              <p class="card-text">
+                Alimento de carne y arroz uno de los alimentos mas comprados.
+              </p>
+              <p class="card-text text-success">$24.990</p>
+              <a href="404.html" class="btn btn-primary">Comprar</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Titulo juguetes-->
+    <div class="container mb-60">
+      <h2 class="display-4 text-center m-3">Juguetes para perros</h2>
+    </div>
+
+    <!--Cards juguetes ROW-1-->
+    <div class="container-fluid text-center mb-5">
+      <div class="row">
+        <div class="col-lg">
+          <div class="card mx-auto mb-4 text-white bg-dark" style="width: 18rem">
+            <img src="img/cuerda.jpg" class="card-img-top img-card" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Cuerda Mordilon</h5>
+              <p class="card-text">
+                Cuerda para reforzar el juego con los dientes de tu perro.
+              </p>
+              <p class="card-text text-success">$5.990</p>
+              <a href="404.html" class="btn btn-primary">Comprar</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg">
+          <div class="card mx-auto mb-4 text-white bg-dark" style="width: 18rem">
+            <img
+              src="img/silbato.jpg"
+              class="card-img-top img-card"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Silbato</h5>
+              <p class="card-text">Silbato para llamar a tu perro cuando no lo encuentres</p>
+              <p class="card-text text-success">$2.990</p>
+              <a href="404.html" class="btn btn-primary">Comprar</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg">
+          <div class="card mx-auto mb-4 text-white bg-dark" style="width: 18rem">
+            <img src="img/kong.jpg" class="card-img-top img-card" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Kong</h5>
+              <p class="card-text">
+                Kong para perros de raza pequeña.
+              </p>
+              <p class="card-text text-success">$3.990</p>
+              <a href="404.html" class="btn btn-primary">Comprar</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg">
+          <div class="card mx-auto mb-4 text-white bg-dark" style="width: 18rem">
+            <img src="img/kongxl.jpg" class="card-img-top img-card" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Kong XL</h5>
+              <p class="card-text">
+                Kong de tamaño grande para perros de raza mediana.
+              </p>
+              <p class="card-text text-success">$8.990</p>
+              <a href="404.html" class="btn btn-primary">Comprar</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Cards juguetes ROW-2-->
+
+    <div class="container-fluid text-center mb-5">
+        <div class="row">
+          <div class="col-lg">
+            <div class="card mx-auto mb-4 text-white bg-dark" style="width: 18rem">
+              <img src="img/peluche.jpg" class="card-img-top img-card" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Peluche</h5>
+                <p class="card-text">
+                  Peluche con sonido libre de toxicos.
+                </p>
+                <p class="card-text text-success">$8.990</p>
+                <a href="404.html" class="btn btn-primary">Comprar</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg">
+            <div class="card mx-auto mb-4 text-white bg-dark" style="width: 18rem">
+              <img
+                src="img/flyer.jpg"
+                class="card-img-top img-card"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Kong Flyer</h5>
+                <p class="card-text">Disco para hechar comida dentro y que tu perro interactue con esta</p>
+                <p class="card-text text-success">$12.990</p>
+                <a href="404.html" class="btn btn-primary">Comprar</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg">
+            <div class="card mx-auto mb-4 text-white bg-dark" style="width: 18rem">
+              <img src="img/almohada.jpg" class="card-img-top img-card" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Almohada</h5>
+                <p class="card-text">
+                  Almohada para el cuello de tu animal para un descanso excepcional.
+                </p>
+                <p class="card-text text-success">$3.990</p>
+                <a href="404.html" class="btn btn-primary">Comprar</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg">
+            <div class="card mx-auto mb-4 text-white bg-dark" style="width: 18rem">
+              <img src="img/hueso.jpg" class="card-img-top img-card" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Hueso plastico</h5>
+                <p class="card-text">
+                  Hueso de plastico con sonido, especial para jugar con tu perro.
+                </p>
+                <p class="card-text text-success">$1.990</p>
+                <a href="404.html" class="btn btn-primary">Comprar</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <!--Footer-->
+    <footer class="container-fluid bg-dark pt-3">
+      <div class="row text-center text-white">
+        <div class="col-lg">
+          <h5>Contáctanos</h5>
+          <a href="contacto.html" class="text-white">Dejanos un mensaje</a>
+        </div>
+        <div class="col-lg">
+          <h5>Redes Sociales</h5>
+          <a href="https://www.facebook.com" class="d-block text-white mb-1"
+            ><i class="fab fa-facebook-f"></i> Facebook</a
+          >
+          <a href="https://twitter.com/home" class="d-block text-white mb-1"
+            ><i class="fab fa-twitter"></i> Twitter</a
+          ><a href="https://www.instagram.com" class="d-block text-white"
+            ><i class="fab fa-instagram"></i> Instagram</a
+          >
+        </div>
+        <div class="col-lg">
+          <h5>Enlaces de interés</h5>
+          <a href="https://www.whiskas.cl" class="d-block text-white"
+            >Whiskas</a
+          >
+          <a
+            href="https://www.pedigree.es/productos/"
+            class="d-block text-white"
+            >Pedigree</a
+          >
+          <a href="https://www.purina-latam.com/cl" class="d-block text-white"
+            >Purina</a
+          >
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="js/script.js"></script>
+  <script
+    src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"
+  ></script>
+</html>
