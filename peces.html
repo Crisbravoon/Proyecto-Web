@@ -1,11 +1,295 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
-    
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+<!-- CSS Propios -->
+<link rel="stylesheet" href="css/styles.css">
+
+<!--Font Awesome.com-->
+<script src="https://kit.fontawesome.com/69fea03298.js" crossorigin="anonymous"></script>
+
+<body background="img/fondo.jpg">
+
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">Pet Society</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto text-center">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">INICIO</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="perros.html">Perros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="gatos.html">Gatos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="peces.html">Peces</a>
+                </li>
+            </ul>
+
+            <ul class="navbar-nav text-center">
+                <li class="nav-item">
+                    <p class="timer text-white" id="display-time"></p>
+                </li>
+                <li class="nav-item">
+                    <a class="btn btn-outline-success mt-1" href="contacto.html">Contactanos</a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+    <!-- FIN NAVBAR-->
+
+    <div class="container-fluid pr-0 pl-0">
+        <img src="img/pecesPORTADA.jpg" class="img-fluid w-100" />
+    </div>
+    <div class="container mb-60">
+        <h2 class="display-4 text-center m-3">Alimentos para Peces <i class="fas fa-fish"></i></h2>
+        <br />
+    </div>
+
+    <!--CARD COMIDA PECES-->
+    <div class="container-fluid text-center mb-4">
+        <div class="row">
+            <div class="col-lg">
+                <div class="card mx-auto mb-4 text-white bg-dark" style="width: 18rem">
+                    <img src="img/Pcomida1.jpg" class="card-img-top img-card" alt="..." />
+                    <div class="card-body">
+                        <h5 class="card-title">Sera Vipagran</h5>
+                        <p class="card-text">
+                            Alimento principal para peces 80G, para una buena salud para tus pecesitos
+                        </p>
+                        <p class="card-text text-success">$29.990</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg">
+                <div class="card mx-auto mb-4 text-white bg-dark" style="width: 18rem">
+                    <img src="img/Pcomida2.jpg" class="card-img-top img-card" alt="..." />
+                    <div class="card-body">
+                        <h5 class="card-title">Tetra Cichlid Sticks</h5>
+                        <p class="card-text">
+                            Comida premium para tus pecesitos , para que obtengan unos llamativos colores
+                        </p>
+                        <p class="card-text text-success">$9.990</p>
+                        <a href="img/404.jpg" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg">
+                <div class="card mx-auto mb-4 text-white bg-dark" style="width: 18rem">
+                    <img src="img/Pcomida3.jpg" class="card-img-top img-card" alt="..." />
+                    <div class="card-body">
+                        <h5 class="card-title">Tropical Supervit</h5>
+                        <p class="card-text">
+                            Mini Granulado, un gran sabor para las boquitas de tus pecesitos, ellos te lo agradeceran!!
+                        </p>
+                        <p class="card-text text-success">$12.000</p>
+                        <a href="img/404.jpg" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg">
+                <div class="card mx-auto mb-4 text-white bg-dark" style="width: 18rem">
+                    <img src="img/Pcomida4.jpg" class="card-img-top img-card" alt="..." />
+                    <div class="card-body">
+                        <h5 class="card-title">Garlic Fish Flakes</h5>
+                        <p class="card-text">
+                            Comida con Omega 3-6 los cuales ayudaran a su calidad de vida.
+                        </p>
+                        <p class="card-text text-success">$19.990</p>
+                        <a href="img/404.jpg" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- FIN CARD PECES-->
+
+    <!--CARD PECERAS Y ACCESORIOS-->
+    <div class="container mb-60">
+        <br />
+        <h2 class="display-4 text-center m-3">Peceras y Accesorios</h2>
+        <br />
+    </div>
+
+    <div class="container-fluid text-center mb-5">
+        <div class="row">
+            <div class="col-lg">
+                <div class="card mx-auto mb-4 text-white bg-dark" style="width: 18rem">
+                    <img src="img/Ppecera1.jpg" class="card-img-top img-card" alt="..." />
+                    <div class="card-body">
+                        <h5 class="card-title">Pecera Clasica Rectangular</h5>
+                        <p class="card-text">
+                            Clasica pecera rectangular con piedras y plantas incluidas , exige tu adorno incluido en tu compra...
+                        </p>
+                        <p class="card-text text-success">$14.990</p>
+                        <a href="img/404.jpg" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg">
+                <div class="card mx-auto mb-4 text-white bg-dark" style="width: 18rem">
+                    <img src="img/Ppecera2.jpg" class="card-img-top img-card" alt="..." />
+                    <div class="card-body">
+                        <h5 class="card-title">Pecera Rectangular Color Azul</h5>
+                        <p class="card-text">
+                            Pecera rectangular con accesorios incluidos, con una capacidad para 5-8 pecesitos
+                        </p>
+                        <p class="card-text text-success">$19.990</p>
+                        <a href="img/404.jpg" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg">
+                <div class="card mx-auto mb-4 text-white bg-dark" style="width: 18rem">
+                    <img src="img/Ppecera3.jpg" class="card-img-top img-card" alt="..." />
+                    <div class="card-body">
+                        <h5 class="card-title">Pecera Premium</h5>
+                        <p class="card-text">
+                            Pecera con accesorio de plantas incluidas , compralas  la tuya antes que se acaben, con capacidad de 5-15 peces en su interior
+                        </p>
+                        <p class="card-text text-success">$44.990</p>
+                        <a href="img/404.jpg" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg">
+                <div class="card mx-auto mb-4 text-white bg-dark" style="width: 18rem">
+                    <img src="img/Abarco.jpg" class="card-img-top img-card" alt="..." />
+                    <div class="card-body">
+                        <h5 class="card-title">Adorno Barco Pirata</h5>
+                        <p class="card-text">
+                            Antiguo adorno de Barco Pirata para las peceras, Cuantos viajes ah realizado por el gran mar abierto...
+                        </p>
+                        <p class="card-text text-success">$19.990</p>
+                        <a href="img/404.jpg" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- CARD ROW 2-->
+    <div class="container-fluid text-center mb-5">
+        <div class="row">
+            <div class="col-lg">
+                <div class="card mx-auto mb-4 text-white bg-dark" style="width: 18rem">
+                    <img src="img/Acastillo.jpg" class="card-img-top img-card" alt="..." />
+                    <div class="card-body">
+                        <h5 class="card-title">Accesorio Ruinas de Castillo </h5>
+                        <p class="card-text">
+                            Accesorio para pecera, Antigua ruinas de Castillo, tu pesecillo querra entrar en ella!!!
+                        </p>
+                        <p class="card-text text-success">$19.990</p>
+                        <a href="img/404.jpg" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg">
+                <div class="card mx-auto mb-4 text-white bg-dark" style="width: 18rem">
+                    <img src="img/Acofre.jpg" class="card-img-top img-card" alt="..." />
+                    <div class="card-body">
+                        <h5 class="card-title">Accesorio Cofre</h5>
+                        <p class="card-text">
+                            Extraño Cofre de accesorio para las peceras ,¿Que escondera dentro de ella?...
+                        </p>
+                        <p class="card-text text-success">$6.990</p>
+                        <a href="img/404.jpg" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg">
+                <div class="card mx-auto mb-4 text-white bg-dark" style="width: 18rem">
+                    <img src="img/Apantas.jpg" class="card-img-top img-card" alt="..." />
+                    <div class="card-body">
+                        <h5 class="card-title">Accesorio tipo Plantas Marinas</h5>
+                        <p class="card-text">
+                            Hermosas y pequeñas plantas para adornar y ser mas agradable para la vista de tu
+                            pesecillo...!!!
+                        </p>
+                        <p class="card-text text-success">$8.000</p>
+                        <a href="img/404.jpg" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg">
+                <div class="card mx-auto mb-4 text-white bg-dark" style="width: 18rem">
+                    <img src="img/Asubmarino.jpg" class="card-img-top img-card" alt="..." />
+                    <div class="card-body">
+                        <h5 class="card-title">Adorno Pecera Submarino</h5>
+                        <p class="card-text">
+                            Hermoso Submario estilo oxidado de accesorio para pecera 120x40
+                        </p>
+                        <p class="card-text text-success">$9.990</p>
+                        <a href="img/404.jpg" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!--FIN CARD PECERAS Y ACCESORIOS-->
+
+    <!--Footer-->
+    <footer class="container-fluid bg-dark pt-3">
+        <div class="row text-center text-white">
+            <div class="col-lg">
+                <h5>Contáctanos</h5>
+                <a href="contacto.html" class="text-white">Dejanos un mensaje</a>
+            </div>
+            <div class="col-lg">
+                <h5>Redes Sociales</h5>
+                <a href="https://www.facebook.com" class="d-block text-white mb-1"><i class="fab fa-facebook-f"></i>
+                    Facebook</a>
+                <a href="https://twitter.com/home" class="d-block text-white mb-1"><i class="fab fa-twitter"></i>
+                    Twitter</a><a href="https://www.instagram.com" class="d-block text-white"><i
+                        class="fab fa-instagram"></i> Instagram</a>
+            </div>
+            <div class="col-lg">
+                <h5>Enlaces de interés</h5>
+                <a href="https://www.whiskas.cl" class="d-block text-white">Whiskas</a>
+                <a href="https://www.pedigree.es/productos/" class="d-block text-white">Pedigree</a>
+                <a href="https://www.purina-latam.com/cl" class="d-block text-white">Purina</a>
+            </div>
+        </div>
+    </footer>
 </body>
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+
 </html>
